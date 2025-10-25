@@ -1,6 +1,7 @@
 # Portfolio Tecnico Forense
 
-Benvenuto nel mio spazio digitale.  
+Benvenuto nel mio spazio digitale.
+Mi chiamo **Diego Bonatti**.
 Qui raccolgo appunti, esercizi, simulazioni e strumenti legati al mio percorso in **Digital Forensics & Incident Response (DFIR)**, automazione e sicurezza.
 
 ## 🎯 Obiettivi
