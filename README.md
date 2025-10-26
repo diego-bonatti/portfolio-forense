@@ -15,4 +15,4 @@ Qui raccolgo appunti, esercizi, simulazioni e strumenti legati al mio percorso i
 Studente appassionato di forense digitale e sicurezza, con un approccio metodico e orientato alla crescita.  
 Credo nella documentazione chiara e nella condivisione delle competenze.
 
-📚 Profilo GitHub: [github.com/Arkanah](https://github.com/Arkanah)
+📚 Profilo GitHub: [github.com/Arkanah](https://github.com/diego-bonatti)
