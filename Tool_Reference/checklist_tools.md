@@ -35,4 +35,4 @@ Questa lista tiene traccia degli strumenti forensi che uso o tengo pronti, suddi
 ---
 
 >Documento curato da **Diego Bonatti**  
-Portfolio tecnico: [GitHub](https://github.com/Arkanah)
+Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)

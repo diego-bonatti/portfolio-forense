@@ -103,4 +103,4 @@ volatility3 -f memory.raw windows.netscan
 ---
 
 >Documento curato da **Diego Bonatti**  
-Portfolio tecnico: [GitHub](https://github.com/Arkanah)
+Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)
