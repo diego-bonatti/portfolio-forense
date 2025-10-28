@@ -1,0 +1,12 @@
+# File temporanei e di log
+*.log
+*.tmp
+
+# Output forensi e immagini disco
+*.E01
+*.mem
+
+# File di ambiente e configurazioni locali
+*.env
+.vscode/
+__pycache__/
