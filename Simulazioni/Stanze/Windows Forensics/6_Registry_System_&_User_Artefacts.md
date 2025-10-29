@@ -63,6 +63,8 @@ Come estrarre informazioni fondamentali dal registro di Windows per identificare
   - DHCP IP
   - Subnet mask
   - DNS
+>Un GUID è un identificatore univoco assegnato a oggetti come schede di rete, reti Wi-Fi, profili utente, app, ecc.
+Serve per tracciare e distinguere entità anche in ambienti complessi o multiutente.
 
 ---
 
@@ -102,13 +104,11 @@ Come estrarre informazioni fondamentali dal registro di Windows per identificare
   - Gruppi associati
 
 
+---
 
-
-
-
-
-
+🔗 [TryHackMe – Windows Forensics 1 (modulo 6)](https://tryhackme.com/room/windowsforensics1)
 
 ---
+
 >Documento curato da **Diego Bonatti**  
 Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)
