@@ -133,6 +133,73 @@ Windows memorizza anche i **percorsi digitati manualmente** nella barra degli in
 
 ---
 
+
+## Altri Artefatti strutturali e comportamentali
+
+### 🔹 1. MFT (Master File Table)
+
+- *Cos’è*: la “rubrica” del file system NTFS. Ogni file e cartella ha una voce nella MFT.
+- *Contenuto*:
+  - Nome, percorso, dimensione
+  - Timestamp (creazione, modifica, accesso)
+  - Attributi e permessi
+- *Utilità forense*:
+  - Traccia file anche se cancellati (finché non sovrascritti)
+  - Fondamentale per ricostruire timeline e attività utente
+- *Strumenti*: MFTECmd, Autopsy
+
+---
+
+### 🔹 2. $LogFile
+
+- *Cos’è*: file di log interno a NTFS che registra operazioni sul file system.
+- *Contenuto*:
+  - Operazioni come Create, Delete, Rename, Write
+  - Transazioni NTFS per integrità e recupero
+- *Utilità forense*:
+  - Conferma azioni su file (es. copia su USB, cancellazione)
+  - Può mostrare eventi anche se il file non esiste più
+- *Strumenti*: LogFileParser (EZ Tools)
+
+---
+
+### 🔹 3. USN Journal (Update Sequence Number Journal)
+
+- *Cos’è*: registro delle modifiche ai file su volumi NTFS.
+- *Contenuto*:
+  - Eventi come FileCreate, FileDelete, FileRename, DataOverwrite
+  - Associati a timestamp e path
+- *Utilità forense*:
+  - Traccia attività su file e cartelle in modo dettagliato
+  - Ottimo per rilevare copia su dispositivi esterni
+- *Strumenti*: MFTECmd (--usnjournal), Autopsy
+
+---
+
+### 🔹 4. Shellbags (viste prima)
+
+- *Cos’è*: struttura nel registro che memorizza le cartelle esplorate in Windows Explorer.
+- *Contenuto*:
+  - Percorsi esplorati, vista (icone, dettagli), timestamp
+  - Anche cartelle su dispositivi rimovibili o cancellati
+- *Utilità forense*:
+  - Dimostra che l’utente ha navigato una cartella
+  - Utile per correlare accessi a USB, cartelle sospette
+- *Strumenti*: ShellBagsExplorer, Registry Explorer
+
+---
+
+## 📌 Sintesi comparativa
+
+| Artefatto     | Traccia cosa?             | Persistenza | Utile per…                     |
+|---------------|---------------------------|-------------|--------------------------------|
+| MFT           | File e cartelle            | Alta        | Timeline, file cancellati      |
+| $LogFile      | Operazioni su file         | Media       | Copia, modifica, cancellazione |
+| USN Journal   | Modifiche e scritture      | Alta        | Copia su USB, attività file    |
+| Shellbags     | Cartelle esplorate         | Alta        | Attività utente, USB browsing  |
+
+---
+
 🔗 [TryHackMe – Windows Forensics 1 (modulo 7)](https://tryhackme.com/room/windowsforensics1)
 
 ---
