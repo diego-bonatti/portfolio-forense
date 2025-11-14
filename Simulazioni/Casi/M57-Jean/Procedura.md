@@ -68,7 +68,7 @@ Ecco cosa è accaduto secondo me in base a quello che ho trovato:
 
 > 3. Il destinatario riceve l’email “da Alison”  
 • 	Il client di posta mostra `alison@m57.biz` come mittente  
-• 	Ma l’intestazione (, ) rivela che è stata inviata da un server esterno non autorizzato
+• 	Ma l’intestazione (`xy.dreamhostps.com` ) rivela che è stata inviata da un server esterno non autorizzato
 
 
 Quindi:
