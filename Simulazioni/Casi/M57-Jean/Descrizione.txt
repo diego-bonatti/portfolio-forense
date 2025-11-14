@@ -1,0 +1,22 @@
+The M57-Jean scenario is a single disk image scenario involving the exfiltration of corporate documents from the laptop of a senior executive. 
+The scenario involves a small start-up company, M57.Biz. 
+A few weeks into inception a confidential spreadsheet that contains the names and salaries of the company’s key employees was found posted to the “comments” section of one of the firm’s competitors. 
+The spreadsheet only existed on one of M57’s officers, Jean.
+Jean says that she has no idea how the data left her laptop and that she must have been hacked.
+You have been given a disk image of Jean’s laptop. Your job is to figure out how the data was stolen, or if Jean isn’t as innocent as she claims.
+
+
+🏢 Contesto
+• 	M57.Biz è una piccola startup appena fondata.
+• 	Tra i primi documenti creati c’è un foglio Excel riservato con nomi e stipendi dei dipendenti chiave.
+• 	Questo file esiste solo sul laptop di Jean, una dirigente dell’azienda.
+
+💥 L’incidente
+• 	Il file riservato viene pubblicato nella sezione “commenti” del sito web di un concorrente.
+• 	Nessuno doveva avere accesso a quel file.
+• 	Jean afferma di non sapere come sia successo e sostiene di essere stata hackerata.
+
+🧪 L'obiettivo
+• 	Ricostruire come il file è stato esfiltrato
+• 	Verificare se Jean è veramente vittima di un attacco
+• 	Oppure se ha mentito e ha condiviso il file volontariamente
