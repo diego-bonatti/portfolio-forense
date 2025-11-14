@@ -101,3 +101,12 @@ E sono analizzabili con il programma: `JLECmd`
 2) Controllare `Prefetch`/`Windows Timeline`, **PECmd**/**WxTCmd**
 3) Controllare `Windows Timeline`, **WxTCmd** (per controllare durata in focus)
 4) Controllare `Prefetch`/`Jump Lists`, **PECmd**/**JLECmd**
+
+
+---
+🔗 [TryHackMe – Windows Forensics 2 (modulo 4 e 5)](https://tryhackme.com/room/windowsforensics2)
+
+---
+
+>Documento curato da **Diego Bonatti**  
+Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)
