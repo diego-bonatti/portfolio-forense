@@ -44,13 +44,51 @@ Esempii di Compound Targets:
 - Targets che non voglio che vengano sincronizzati con la repository di KAPE su Github
 
 
+## 🧾 Module Options
+
+>Prendono i dati raccolti prima dalla fase Target e li elaborano in base al modulo scelto.   
+Di solito in output abbiamo un file .csv.   
+
+Anche qui esiste il concetto di Compund Module, i file dei moduli hanno estensione: `mkape`.
+
+Ai moduli sono necessari degli eseguibili per poter funzionare, se essi mancano allora entra in gioco la cartella bin.  
+Questa cartella bin contiene gli eseguibili di cui i moduli hanno bisogno per poter funzionare.  
 
 
+## Parametri Di KAPE
 
 
+- `Flush`: elimina tutti i files dalla cartella di destinazione
+- `Add %d`: aggiunge info del nome della directory ai dati salvati
+- `Add %m`: aggiunge info del dispositivo nella Target destination directory
+- `Process VSCs`: processa anche le Volume Shadow Copies  
+- `Transfer`: per trasferire i files attraverso un **server SFTP o S3 Bucket** (i files devono essere in un container, identificato da un Base Name).
+
+### Esempio
+
+>Acquisizione di **KapeTriage** ed elaborazione con modulo: **EZParser**.
+
+![alt](Screenshots/Acquisizione.png)
+
+- Risposte alla domande:
+
+![alt](Screenshots/Domande.png)
 
 
+---
+### Esempio KAPE CLI (Command Line)
 
+
+```powershell
+kape.exe --tsource C: --target KapeTriage --tdest C:\Users\thm-4n6\Desktop\Target --mdest C:\Users\thm-4n6\Desktop\module --module !EZParser
+```
+```bash
+kape.exe 
+```
+per ottenere più informazioni aggiuntive riguardo a flags...
+
+
+![alt](Screenshots/Domande_2.png)
 
 
 
