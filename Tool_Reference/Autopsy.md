@@ -64,7 +64,7 @@ Dopo aver cliccato su un file o una cartella otteniamo più informazioni tramite
 ![alt](Screenshots/Keyword_search.png)
 
 
-## Status Area
+### Status Area
 
 In basso a destra che indica quando un Ingest Module è in esecuzione, tramite una barra di caricamento.  
 
@@ -73,10 +73,49 @@ In basso a destra che indica quando un Ingest Module è in esecuzione, tramite u
 
 ## User Interface (Part 2)
 
+![alt](Screenshots/Summary_Autopsy.png)
+
+Si può generare un **Report** cliccando "Generate Report" nella barra in alto.
 
 
+![alt](Screenshots/Report_Autopsy.png)
+
+Esempio di report HTML del caso M57-Jean, di soli Notable Items:
+
+![alt](Screenshots/Esempio_Report.png)
 
 
+## Visualisation Tools
+
+Esempio di Timeline in Autopsy:
+
+![alt](Screenshots/Esempio_Timeline.png)
+
+>La Timeline è composta da 3 **aree**:
+
+- `Filters`: riducono i dati visualizzati
+- `Events`: attività che si sono veirifcate nel tempo
+- `Files/Contents`: informazioni aggiuntive riguardo agli eventi
+
+>Nella timeline abbiamo 3 **modalità di visualizzazione** (View Modes)
+
+- `Counts`: numero di eventi
+- `Details`: informazioni riguardo agli eventi (clustered/collapsed)
+- `List`: eventi mostrati in una tabella
+  
+
+>Per **espandere** un cluster cliccare sull'icona verde con un "+".  
+Per **pinnare** un cluster cliccare sull'icona bianca con un segnalino rosso.  
+Per **nascondere** un cluster cliccare sull'icona bianca con un occhio.  
+
+
+---
+🔗 [TryHackMe – Autopsy](https://tryhackme.com/room/btautopsye0)
+
+---
+
+>Documento curato da **Diego Bonatti**  
+Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)
 
 
 
