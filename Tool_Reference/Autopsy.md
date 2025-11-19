@@ -114,8 +114,9 @@ Per **nascondere** un cluster cliccare sull'icona bianca con un occhio.
 
 ---
 
->Documento curato da **Diego Bonatti**  
-Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)
+>📄Documento curato da **Diego Bonatti**  
+💻Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)  
+📬Contatto: diego.bonatti.fdi@gmail.com
 
 
 

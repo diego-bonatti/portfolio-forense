@@ -110,5 +110,6 @@ Serve per tracciare e distinguere entità anche in ambienti complessi o multiute
 
 ---
 
->Documento curato da **Diego Bonatti**  
-Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)
+>📄Documento curato da **Diego Bonatti**  
+💻Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)  
+📬Contatto: diego.bonatti.fdi@gmail.com

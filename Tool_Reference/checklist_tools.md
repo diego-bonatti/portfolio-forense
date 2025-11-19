@@ -34,5 +34,6 @@ Questa lista tiene traccia degli strumenti forensi che uso o tengo pronti, suddi
 
 ---
 
->Documento curato da **Diego Bonatti**  
-Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)
+>📄Documento curato da **Diego Bonatti**  
+💻Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)  
+📬Contatto: diego.bonatti.fdi@gmail.com

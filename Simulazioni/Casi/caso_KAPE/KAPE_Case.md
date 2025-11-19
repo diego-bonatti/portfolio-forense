@@ -91,3 +91,8 @@ JLECmd.exe -d "C:\Users\THM-4n6\Desktop\output_target\C\Users\THM-4n6\AppData\Ro
 
 ![alt](Screenshots/Jump_Lists_KAPE.png)
 
+---
+
+>📄Documento curato da **Diego Bonatti**  
+💻Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)  
+📬Contatto: diego.bonatti.fdi@gmail.com

@@ -80,5 +80,6 @@ Qui trovo una lista dei dispositivi di archiviazione collegati **assieme ai time
 
 ---
 
->Documento curato da **Diego Bonatti**  
-Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)
+>📄Documento curato da **Diego Bonatti**  
+💻Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)  
+📬Contatto: diego.bonatti.fdi@gmail.com

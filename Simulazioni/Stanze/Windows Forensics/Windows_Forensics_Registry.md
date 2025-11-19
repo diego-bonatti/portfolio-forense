@@ -151,5 +151,6 @@ I **backup** sono copie dei file hive salvate da Windows ogni **10 giorni**.
 
 ---
 
->Documento curato da **Diego Bonatti**  
-Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)
+>📄Documento curato da **Diego Bonatti**  
+💻Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)  
+📬Contatto: diego.bonatti.fdi@gmail.com
