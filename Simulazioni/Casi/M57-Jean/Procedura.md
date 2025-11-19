@@ -113,3 +113,9 @@ Questa contraddizione suggerisce che:
 > La discrepanza temporale tra apertura e creazione è una prova chiave che il file è stato **importato nel sistema**, non generato internamente.
 
 >**Quindi no, il file non esisteva già da prima nel sistema!**
+
+---
+
+>📄Documento curato da **Diego Bonatti**  
+💻Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)  
+📬Contatto: diego.bonatti.fdi@gmail.com

@@ -90,8 +90,11 @@ per ottenere più informazioni aggiuntive riguardo a flags...
 
 ![alt](Screenshots/Domande_2.png)
 
+---
 
-
+>📄Documento curato da **Diego Bonatti**  
+💻Portfolio tecnico: [GitHub](https://github.com/diego-bonatti)  
+📬Contatto: diego.bonatti.fdi@gmail.com
 
 
 
